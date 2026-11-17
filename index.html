@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="부산·울산·창원 입주청소 안내">
+<meta property="og:description" content="완료 30분 전 연락 → 직접 확인 → 만족 후 결제. 다하리 토탈케어">
+<meta property="og:image" content="https://taeho0202-ship-it.github.io/busan-ulsan-changwon-clean/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://taeho0202-ship-it.github.io/busan-ulsan-changwon-clean/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://taeho0202-ship-it.github.io/busan-ulsan-changwon-clean/img/og.jpg">
 <title>부산울산창원 입주청소 다하리</title>
 <meta name="description" content="부산·울산·창원 전지역 입주청소 전문. 당일 청소 가능, 완료 30분 전 연락 후 직접 확인하고 결제.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap">
@@ -29,7 +38,7 @@ h2{font-size:26px;font-weight:800;text-align:center;margin:6px 0 10px;letter-spa
 /* hero */
 .hero{padding:70px 0 40px;background:linear-gradient(#fff,#f8fafc)}
 .loc{display:inline-flex;gap:6px;align-items:center;background:#f3f4f6;border-radius:99px;padding:8px 16px;font-weight:700;font-size:14px}
-.hero h1{font-size:44px;line-height:1.18;font-weight:900;margin:22px 0 14px;letter-spacing:-.03em}
+.hero h1{font-size:clamp(30px,9.4vw,44px);line-height:1.18;font-weight:900;margin:22px 0 14px;letter-spacing:-.03em}
 .hero h1 em{color:var(--blue);font-style:normal}
 .hero .sub{font-size:19px;font-weight:700;margin-bottom:22px}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
@@ -76,6 +85,11 @@ h2{font-size:26px;font-weight:800;text-align:center;margin:6px 0 10px;letter-spa
 .price .q{display:block;text-align:center;background:#f3f4f6;border-radius:12px;padding:14px;font-weight:800}
 .price.hot{border:2px solid var(--blue)}
 .price.hot .q{background:var(--blue);color:#fff}
+.price.hot{background:#111827;border-color:#111827;color:#fff}
+.price.hot .b{color:#cbd5e1}
+.price.hot li{color:#fff}
+.price.hot .q{background:#fae54b;color:#111827}
+.price.hot .badge{background:#2563eb}
 .badge{position:absolute;top:-12px;right:20px;background:var(--blue);color:#fff;font-size:12px;font-weight:800;padding:5px 12px;border-radius:99px}
 .fine{color:#6b7280;font-size:13px;font-weight:600;margin-top:18px}
 /* faq */
@@ -93,7 +107,7 @@ details p{margin-top:12px;color:var(--sub);font-weight:500;font-size:15px}
 .video{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;box-shadow:0 8px 26px rgba(0,0,0,.15)}
 .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .final{background:var(--bg);text-align:center}
-.final h2{font-size:30px}
+.final h2{font-size:clamp(22px,6.8vw,30px)}
 .final .btn{margin-top:14px}
 .final .tel{display:inline-flex;padding:14px 36px;font-size:17px;margin-top:14px}
 .final .small{font-size:13px;color:var(--sub);font-weight:700;margin-top:18px}
@@ -105,13 +119,15 @@ details p{margin-top:12px;color:var(--sub);font-weight:500;font-size:15px}
 #reviews-page{display:none}
 body.rv #home{display:none}body.rv #reviews-page{display:block}
 .back{display:inline-block;font-weight:800;color:var(--blue);margin:26px 0 8px}
+body{word-break:keep-all}
+h1,h2,h3,.sub{text-wrap:balance}
 </style>
 </head>
 <body>
 <div id="home">
 <header class="hero"><div class="wrap">
   <span class="loc">📍 부산·울산·창원 전지역</span>
-  <h1>부산·울산·창원 입주청소 <em>전문</em></h1>
+  <h1>부산·울산·창원<br>입주청소 <em>전문</em></h1>
   <div class="chips"><span>당일 청소 가능</span><span>누적 500건+</span><span>불만족률 0.05%</span><span>파트별 걸레 분리사용</span><span>숨고 플랫폼 리뷰 5.0점</span></div>
   <a class="btn kakao" href="http://pf.kakao.com/_xmExcjn/chat">💬 카카오톡 상담문의</a>
   <a class="btn white" href="tel:010-2188-8804">📞 전화 상담 문의</a>
@@ -244,7 +260,7 @@ body.rv #home{display:none}body.rv #reviews-page{display:block}
 </div></section>
 
 <section class="final"><div class="wrap">
-  <h2 class="fade">지금 바로 부산·울산·창원 최고의<br>입주청소를 경험하세요</h2>
+  <h2 class="fade">지금 바로 부산·울산·창원 최고의 입주청소를 경험하세요</h2>
   <p class="lead fade" style="color:var(--ink)">완료 30분 전 연락 → 직접 확인 → 만족 후 결제</p>
   <a class="btn kakao" href="http://pf.kakao.com/_xmExcjn/chat">💬 카카오톡 견적 받기</a>
   <a class="btn naver" href="https://talk.naver.com/ct/w4mgx9?frm=pblog#nafullscreen">네이버 톡톡 문의</a>
@@ -264,11 +280,11 @@ body.rv #home{display:none}body.rv #reviews-page{display:block}
 <div class="sticky"><a class="btn kakao" href="http://pf.kakao.com/_xmExcjn/chat">💬 카카오톡 견적문의</a><small>지금문의시 1만원 할인혜택</small></div>
 
 <script>
-const P=[["원룸","200,000원~","원룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
-["1.5룸","240,000원~","1.5룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
-["투룸","260,000원~","투룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
-["20평형","340,000원~","20평형 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
-["30평형","480,000원~","30평형 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S","붙박이장 내부 청소"],1]];
+const P=[["원룸","180,000원~","원룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["1.5룸","220,000원~","1.5룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["투룸","240,000원~","투룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["20평형","280,000원~","20평형 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["30평형","400,000원~","30평형 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S","붙박이장 내부 청소"],1]];
 document.getElementById('pricing').innerHTML=P.map(p=>`<div class="card price fade${p[4]?' hot':''}">${p[4]?'<span class="badge">인기</span>':''}<h3>${p[0]}</h3><div class="p">${p[1]}</div><div class="b">${p[2]}</div><ul>${p[3].map(x=>`<li>${x}</li>`).join('')}</ul><a class="q" href="http://pf.kakao.com/_xmExcjn/chat">견적 받기</a></div>`).join('');
 const IMG={'8150426a6_SE-1bf8ef49-7377-4dd4-ab25-c31c2f201e34': 'img/1f77a415cf.png', 'ce55a71c5_SE-1fef599d-9ca0-4d44-949f-e2860a9ef4ab': 'img/f500bbc650.png', 'adfb1838b_SE-07cd8dee-3d38-490d-a976-7583b7d18cc1': 'img/167288aef1.png', '1236e8b6b_SE-80bfea8e-b737-4329-8bf1-4105d22fd7ac': 'img/6c0a1a3a9a.png', '6d961aaa8_SE-92cd5cfa-915e-41f0-b742-9773ec5655f3': 'img/60b0508ecc.png', '6c229978c_SE-b45192b6-9999-4e4d-a494-38bf5c0922dc': 'img/7958808430.png', '26c706d50_SE-ca70724b-9601-43ed-ac2a-bb8302a918c7': 'img/139080d1c9.png', '83f60e9ec_SE-dcba27c4-5cba-495d-b76c-6b6744ab2a28': 'img/81c222ad64.png'};
 ['8150426a6_SE-1bf8ef49-7377-4dd4-ab25-c31c2f201e34','ce55a71c5_SE-1fef599d-9ca0-4d44-949f-e2860a9ef4ab','adfb1838b_SE-07cd8dee-3d38-490d-a976-7583b7d18cc1','1236e8b6b_SE-80bfea8e-b737-4329-8bf1-4105d22fd7ac','6d961aaa8_SE-92cd5cfa-915e-41f0-b742-9773ec5655f3','6c229978c_SE-b45192b6-9999-4e4d-a494-38bf5c0922dc','26c706d50_SE-ca70724b-9601-43ed-ac2a-bb8302a918c7','83f60e9ec_SE-dcba27c4-5cba-495d-b76c-6b6744ab2a28']
